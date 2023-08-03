@@ -84,8 +84,8 @@ OK camera, it can produce OK nerfs.
 ## Samsung Camera
 Depending on what model, it produces mid to high models.
 
-# Other Relevant Technology
+## Other Relevant Technology
 The following technologies can be relevant for exploration, unfortunately, we did not get to explore them.
 
-# Conclusion
+## Conclusion
 
