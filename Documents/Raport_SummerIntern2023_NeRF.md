@@ -23,7 +23,8 @@ Was hard to even make the code from the repo work. The documentation was bad. Ha
 
 Learning, always be skeptical of new technology. If it's from a credible university or company it does not matter. It will be hard to replicate.
 
-## Problem with all NeRF models: have to get camera positions. Normally done using colmap, but this takes quite some time. Can use other applications or use Lidar data, but then you need special hardware. iPhones have Lidar capabilities and can use certain apps, android phones don’t have this.
+## Problem with all NeRF models: 
+have to get camera positions. Normally done using colmap, but this takes quite some time. Can use other applications or use Lidar data, but then you need special hardware. iPhones have Lidar capabilities and can use certain apps, android phones don’t have this.
 
 ## Volinga - Completely new technology, plugin works, exporter works
 - Helpful, updated their plugin after we had a request for removing collision of the Volinga nerf actor
