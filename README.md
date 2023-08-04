@@ -143,7 +143,7 @@ Very easy to use and a lot of documentation. We tried both running NeRFStudio di
 Looked like an interesting NeRF model to explore. However, we couldn't get it to work. When trying to run it we encountered issues with the requirements.txt, we did not manage to install all requirements. This meant that running the code was impossible for us. 
 
 
-#### LocalRF
+#### LocalRF - [Github](https://localrf.github.io/)
 The documentation was bad so it was hard to even make the code from the repo work. Additionally, when we got it to run it took forever to train. The output did not look like the paper at all. Would be interesting to integrate if we could travel in any path and training was quicker.
 
 
