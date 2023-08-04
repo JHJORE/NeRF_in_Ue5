@@ -108,7 +108,7 @@ As of writing, Volinga is a new plugin still in beta. Volinga has a singular pur
 If you upload your chkpt file or video to their website, it is connected to Volingas cloud. Any sensitive information should not be uploaded! If you need to upload sensitive information, contact them and ask for their desktop, which offers local training.
 
 ### Volinga Desktop
-Volinga also offers an enterprise desktop solution. This desktop variant currently provides the same features as their website, albeit with minor modifications. The desktop version only accepts checkpoint files for export, not videos, and these checkpoint files must be trained using NeRFStudio version 0.3.1.
+Volinga also offers an enterprise desktop solution. This desktop variant currently provides the same features as their website, albeit with minor modifications. The desktop version only accepts checkpoint files for export, not videos, and these checkpoint files must be trained using NeRFStudio version 0.3.1. To use this version you have to change the remote image version in the .env-file to "dromni/nerfstudio:0.3.1" and choose “2: Run prebuildt official image dromni/nerfstudio:0.3.1”
 
 
 
@@ -137,7 +137,6 @@ Very easy to use and a lot of documentation. We tried both running NeRFStudio di
 	- The normal way of training NeRF models
 - Volinga
 	- The training method that gives you the .chkpt-file you can use with the Volinga exporter. 
-	- This required version 0.3.1. To use this version you have to change the remote image version in the .env-file to "dromni/nerfstudio:0.3.1" and choose “2: Run prebuildt official image dromni/nerfstudio:0.3.1”
 
 #### MERF - [Github](https://creiser.github.io/merf/)
 Looked like an interesting NeRF model to explore. However, we couldn't get it to work. When trying to run it we encountered issues with the requirements.txt, we did not manage to install all requirements. This meant that running the code was impossible for us. 
