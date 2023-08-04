@@ -5,4 +5,4 @@ To run the project, you have to download the Volinga plugin from volinga.ai. Thi
 
 https://youtu.be/MIEbp1fxDJo
 
-##[![Watch the video](https://img.youtube.com/vi/MIEbp1fxDJo/default.jpg)](https://youtu.be/MIEbp1fxDJo)
+[![Watch the video](https://img.youtube.com/vi/MIEbp1fxDJo/default.jpg)](https://youtu.be/MIEbp1fxDJo)
