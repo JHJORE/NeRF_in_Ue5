@@ -11,9 +11,11 @@
 - [Conclusion](#conclusion)
 
 <div id="abstract"></div>
+
 ## Abstract
 
 <div id="introduction"></div>
+
 ## Introduction
 Neural radiance fields (NeRF) are a new and emerging technology that has the potential to revolutionize the way we create and interact with 3D content. NeRFs are a type of Machine model that can be trained to represent a scene's 3D geometry and appearance from a set of 2D images. Once trained, a NeRF can be used to generate novel views of the scene from any angle and create interactive 3D experiences.
 The current state of NeRF research is rapidly evolving. In the past few years, there have been significant advances in the accuracy and efficiency of NeRF models. As a result, NeRFs are now being used in a variety of applications, including robotics, computer graphics, and virtual reality.
@@ -36,6 +38,7 @@ The outcomes of this initiative were encouraging, indicating that NeRF holds sig
 #### Requirements
 
 <div id="explored-technologies"></div>
+
 ## Explored Technologies
 
 ### Instant-NGP - [GitHub](https://github.com/bycloudai/instant-ngp-Windows)
@@ -111,9 +114,11 @@ OK camera, it can produce OK nerfs.
 Depending on what model, it produces mid to high models.
 
 <div id="other-relevant-technologies"></div>
+
 ## Other Relevant Technology
 The following technologies can be relevant for exploration, unfortunately, we did not get to explore them.
 
 <div id="conclusion"></div>
+
 ## Conclusion
 
