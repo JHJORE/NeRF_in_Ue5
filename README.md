@@ -149,7 +149,6 @@ The documentation was bad so it was hard to even make the code from the repo wor
 
 #### Multi user editor - plugin (did not work with Volinga)
 - Worked decently, not very easy to use and to set up. We had some problems with persistence and with using Git. Recommend watching the [video](https://www.youtube.com/watch?v=MPIpOdNmNGE) from unreal on how it is used. It does work well if you are using traditional unreal engine tools.
-- https://www.youtube.com/watch?v=MPIpOdNmNGE
 - Git support is in Beta, works decently, but we have experienced some issues and some merge conflicts. Fixing merge conflicts doesn't work, we had to revert some changes.
 
 #### Oculus
