@@ -26,7 +26,7 @@ The outcomes of this initiative were encouraging, indicating that NeRF holds sig
 <div id="nerf"></div>
 
 ## Nerfs
-Requirement: 
+### Requirement: 
 - GPU to Train the NeRF model
 
 **Neural Radiance Fields (NeRFs)** represent a novel approach for synthesizing photorealistic views of complex scenes by optimizing an underlying continuous volumetric scene function using a sparse set of input views. NeRFs are trained to represent the radiance of a scene, which is the total amount of light emitted or reflected from a point in the scene. This information can then render novel views of the scene from arbitrary viewpoints.
