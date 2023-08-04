@@ -48,6 +48,12 @@ Despite the substantial advantages that NeRF models present, particular challeng
 
 Lastly, a common constraint in traditional NeRF implementation is the requirement for a defined center during video filming. The conventional usage of NeRFs leans towards object capture rather than environmental representation, demanding a clearly defined center around which to navigate during filming. Some models have been developed not requiring this, such as  [LocalRF](https://github.com/facebookresearch/localrf), but they require highly specialized hardware, have long training periods, and are challenging to replicate the code. As technology evolves, it is hoped that these limitations can be overcome, thereby broadening the use cases and accessibility of NeRF models.
 
+### How to Capture a Good NeRF
+The methods to capture a NeRF vary depending on the subject of interest. Leveraging the default high-resolution phone camera setting is ideal for object capture. It is advisable to film the object of interest three times from distinct perspectives. The initial filming should be done at the standard level, followed by a low-angle shot, and finally, from a high angle. This ensures comprehensive coverage of all possible angles of the object.
+
+On the other hand, capturing an environment requires a different strategy. The size of your area largely determines the approach, particularly influencing the degree of wide-angle used. With larger spaces, a greater wide angle is needed. This decision, however, comes with a trade-off: although a wide angle helps minimize blur and random point clouds, it might reduce the resolution of the NeRF. However, to maximize the quality of your NeRF model, it's advisable to implement an algorithm that eliminates blurry photos from your training data before initiating the training process. This pre-processing step significantly enhances the resultant NeRF's quality.
+
+
 ### Google Pixel Camera
 OK camera, it can produce OK nerfs.
 
