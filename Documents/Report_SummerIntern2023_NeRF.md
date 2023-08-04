@@ -115,8 +115,10 @@ Very easy to use and a lot of documentation. We tried both running NeRFStudio di
 	- The training method that gives you a .chkpt-file you can use with the Volinga exporter. 
 	- This required version 0.3.1. To use this version you have to change the remote image version in the .env-file to "dromni/nerfstudio:0.3.1" and choose “2: Run prebuildt official image dromni/nerfstudio:0.3.1”
 
-#### MERF
-Did not work
+#### MERF - [Github](https://creiser.github.io/merf/)
+Looked like an interesting NeRF model to explore. However, we couldn't get it to work. When trying to run it we encountered issues with the requirements.txt, we did not manage to install all requirements. This meant that running the code was impossible for us. 
+
+
 #### LocalRF
 Was hard to even make the code from the repo work. The documentation was bad. Hard to even run. Additionally, when we got it to run it took forever to train. The output did not look like the paper at all. Would be interesting to integrate if we could travel in any path and training was quicker.
 
