@@ -89,15 +89,15 @@ Volinga also offers an enterprise desktop solution. This desktop variant current
 
 
 ### Volinga with Unreal
-Volinga has a plugin you can download on their website. After you download it you have to put it in the Plugin-folder of Unreal Engine. This gives the Volinga nerf actor which stores the nerf model. You can change size of the cube to remove the parts of the model that aren’t relevant, taking away all the NeRF-fog. You can also change the scale of the model. 
-The earlier version of the plugin had some problems, but the newest version we teste was more stable. 
-One problem with the plugin is that you can only have one Volinga NeRF actor in one level, so stitching rooms or buildings together requires multiple levels and NeRF actors.
+For effectively incorporating the Volinga plugin with Unreal Engine 5, following the detailed guidelines provided in Volinga's documentation is advisable. 
 
-The way we made the business center was by making each room its own level with its own NeRF model. Going from one room to another was done by having a trigger point that opens another level and spawns in the player at a preset spawn point.
+Essentially, Volinga establishes a cubic NeRF actor that houses the NeRF model as an internal mesh. This cube's dimensions can be altered to excise irrelevant portions of the model, thereby eliminating any NeRF-fog. The model's scale can also be adjusted as needed. It should be noted that within Unreal Engine 5, the NeRF model lacks physical properties, functioning instead like a hologram. However, by utilizing the tools available in Unreal Engine 5 to superimpose a physical environment onto the NeRF, the model appears to possess physical properties and can interact with all items within the Unreal Engine 5 environment. While early plugin versions faced stability issues, the most recent version we examined proved significantly more stable.
 
-There is probably an easier way to do it than the way we did it, but as we were totally new to Unreal Engine, this was the best we managed to do.
+A current drawback of Volinga is its limitation to a single Volinga NeRF actor per level. This creates a challenge when multiple models are required, necessitating the "stitching" of levels by placing a single model in each. Theoretically, it might be possible to stream all levels within a single world, although we have yet to test this.
 
-Volinga does not work with VR yet, but they have said that they will add this functionality later.
+In creating our business center, we designated each room as an individual level with its unique NeRF model. Transitioning from one room to another was facilitated through trigger points that initiate another level and spawn the player at a preset location. Although there may be simpler methods of achieving this, our experience with Unreal Engine was limited.
+
+As of now, Volinga lacks compatibility with VR. However, the team has announced plans to incorporate this functionality in the future.
 
 
 <div id="explored-technologies"></div>
