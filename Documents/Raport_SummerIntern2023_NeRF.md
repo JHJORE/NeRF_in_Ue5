@@ -17,7 +17,7 @@
 <div id="introduction"></div>
 
 ## Introduction
-Neural radiance fields (NeRF) are a new and emerging technology that has the potential to revolutionize the way we create and interact with 3D content. NeRFs are a type of Machine model that can be trained to represent a scene's 3D geometry and appearance from a set of 2D images. Once trained, a NeRF can be used to generate novel views of the scene from any angle and create interactive 3D experiences.
+Neural radiance fields (NeRF) are a new and emerging technology that has the potential to revolutionize the way we create and interact with 3D content. NeRFs are a type of Machine Learning model that can be trained to represent a scene's 3D geometry and appearance from a set of 2D images. Once trained, a NeRF can be used to generate novel views of the scene from any angle and create interactive 3D experiences.
 The current state of NeRF research is rapidly evolving. In the past few years, there have been significant advances in the accuracy and efficiency of NeRF models. As a result, NeRFs are now being used in a variety of applications, including robotics, computer graphics, and virtual reality.
 
 This report delves into the promising prospects of Neural Radiance Fields (NeRF) in its application within Equinor. Initially executed as a summer intern project, the investigation provided a proof-of-concept emphasizing the practicality of deploying NeRF in creating digital twins. To bring this concept to life, Unreal Engine 5 was employed as the physics engine underpinning the NeRF models.
@@ -26,6 +26,26 @@ The outcomes of this initiative were encouraging, indicating that NeRF holds sig
 <div id="nerf"></div>
 
 ## Nerfs
+Requirement: 
+- GPU to Train the NeRF model
+
+**Neural Radiance Fields (NeRFs)**  implicitly represent 3D scenes that have recently shown great promise for photorealistic 3D reconstruction. NeRFs are trained to represent the radiance of a scene, which is the total amount of light emitted or reflected from a point in the scene. This information can then render novel views of the scene from arbitrary viewpoints.
+NeRFs are trained using a set of 2D images of a scene. The images are used to compute a rendering loss. These models take a 5D input - 3D coordinate for location and 2D for viewing direction - and output the color and density at that location when viewed from the given direction. The NeRF is then optimized to minimize the rendering loss.
+NeRFs have several advantages over traditional 3D reconstruction methods:
+
+1. They can represent scenes with complex geometry and appearance.
+2. They can synthesize views from arbitrary viewpoints, even if those viewpoints were not included in the training data.
+3. They can do this in real-time, making them suitable for virtual and augmented reality applications.
+
+
+### Problem with all NeRF models: 
+have to get camera positions. Normally done using colmap, but this takes quite some time. Can use other applications or use Lidar data, but then you need special hardware. iPhones have Lidar capabilities and can use certain apps, android phones don’t have this.
+
+### Google Pixel Camera
+OK camera, it can produce OK nerfs.
+
+### Samsung Camera
+Depending on what model, it produces mid to high models.
 
 <div id="unrealengine-5"></div>
 
@@ -38,31 +58,25 @@ The outcomes of this initiative were encouraging, indicating that NeRF holds sig
 #### Volinga
 
 
-### Google Pixel Camera
-OK camera, it can produce OK nerfs.
-
-### Samsung Camera
-Depending on what model, it produces mid to high models.
-
 ### Problem with all NeRF models: 
 have to get camera positions. Normally done using colmap, but this takes quite some time. Can use other applications or use Lidar data, but then you need special hardware. iPhones have Lidar capabilities and can use certain apps, android phones don’t have this.
 
 ### Volinga - Completely new technology, plugin works, exporter works
+You use Volinga to export a .chkpt file or video/images into an .nvol file that you can use in Unreal Engine to view the nerf model. If you use the site, you have to be aware that it is connected to their coud, so they will get access to any sensitive data trained on it. They have an enterprise license you can buy that gives you access to a desktop app. In this you can train data locally, which enables sensitive data. 
+When training on the site, you can upload photos, videos, and .chkpt-files. When using the desktop app you can only use .chkpt-files. Using NeRFStudio is necessary when using the desktop app to train the .chkpt-file. 
+
+During our weeks it only worked with NeRFStudio version 0.3.1. Otherwise the chkpt-file is not compatible with the Volinga exporter. NeRFStudio or Volinga might have updated their applications later. 
+
 - Helpful, updated their plugin after we had a request for removing collision of the Volinga nerf actor
 - Active on Discord
 
-Easy to export NeRF chkpt-file to nvol-file to use in Unreal. The site is connected to the cloud, so you can't train any sensitive data using it. Have to get an enterprise license to be able to train locally on their desktop app. Have not tested it yet, but we assume it works the same as the site. When you use the site, you can also input a video, and they can train the model for you and export the nvol-file. When you use the desktop app you can only input chkpt-files, this means you have to train the model locally.
-
-Only works with NeRFStudio version 0.3.1. Otherwise the chkpt-file is not compatible with the Volinga exporter.
 
 ### Volinga with Unreal
-A Volinga nerf actor which stores the nerf model. Can size it, change scale. This means you can get a lifelike size so when you walk around in first person you don't feel too small or too large.
+Volinga has a plugin you can download on their website. After you download it you have to put it in the Plugin-folder of Unreal Engine. This gives the Volinga nerf actor which stores the nerf model. You can change size of the cube to remove the parts of the model that aren’t relevant, taking away all the NeRF-fog. You can also change the scale of the model. 
+The earlier version of the plugin had some problems, but the newest version we teste was more stable. 
+One problem with the plugin is that you can only have one Volinga NeRF actor in one level, so stitching rooms or buildings together requires multiple levels and NeRF actors.
 
-Had some problems with the plugin in earlier versions, the newest version is more stable.
-
-One problem is that you can only have one Volinga NeRF actor in one level, so stitching rooms or buildings together requires multiple levels and NeRF actors.
-
-Each room is its own level with its own NeRF model, and going from one room to another is done by having a trigger point that opens another level and spawns in the player at a preset spawn point.
+The way we made the business center was by making each room its own level with its own NeRF model. Going from one room to another was done by having a trigger point that opens another level and spawns in the player at a preset spawn point.
 
 There is probably an easier way to do it than the way we did it, but as we were totally new to Unreal Engine, this was the best we managed to do.
 
@@ -75,8 +89,12 @@ Volinga does not work with VR yet, but they have said that they will add this fu
 
 ### Instant-NGP - [GitHub](https://github.com/bycloudai/instant-ngp-Windows)
 ### NeRFStudio - [GitHub](https://github.com/equinor/eit-nerfstudio)
+Very easy to use and a lot of documentation. We tried both running NeRFStudio directly, and using the Docker image that Jonas made, and we preferred using the Docker image. We used it on windows with WSL using Distro and Ubuntu. 
 - Nerfacto
+	The normal way of training NeRF models
 - Volinga
+	The training method that gives you a .chkpt-file you can use with the Volinga exporter. 
+	This required version 0.3.1. To use this version you have to change the remote image version in the .env-file to "dromni/nerfstudio:0.3.1" and choose “2: Run prebuildt official image dromni/nerfstudio:0.3.1”
 
 ### MERF - did not work
 ### LocalRF
@@ -84,9 +102,6 @@ Was hard to even make the code from the repo work. The documentation was bad. Ha
 
 Learning, always be skeptical of new technology. If it's from a credible university or company it does not matter. It will be hard to replicate.
 
-### Luma - Expensive, don't think it will work as well with rooms as it does with objects. Don't know how it works with Unreal Engine.
-
-### PolyCam - No one had IOS so we couldn't test it.
 
 
 ### Multiplayer plugin (did not work with Volinga)
@@ -119,6 +134,12 @@ GoPro does not produce better nerfs than a phone camera, only the wide feature t
 
 ## Other Relevant Technology
 The following technologies can be relevant for exploration, unfortunately, we did not get to explore them.
+
+### Luma
+Expensive. We don't think it will work as well with rooms as it does with objects and we don't know how of if it works with Unreal Engine.
+
+### PolyCam
+No one had IOS so we couldn't test it. Seems interesting to not have to use colmap, you can save a lot of time. 
 
 <div id="conclusion"></div>
 
