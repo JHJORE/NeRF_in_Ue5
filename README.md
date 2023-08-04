@@ -38,7 +38,7 @@ Video showing the project: https://youtu.be/MIEbp1fxDJo
 
 ## 📑 Abstract
 This research delves into the potential of Neural Radiance Fields (NeRFs) for creating interactive 3D representations of real-world environments using Unreal Engine 5 and its integration within Equinor. The project, conducted as part of a summer internship at Equinor, demonstrates how NeRFs can be effectively utilized to create digital twins of complex environments.
-Utilizing Volinga, a plugin designed to render NeRFs in Unreal Engine 5. the team created a digital twin of Equinors business center, each room representing an individual level containing a unique NeRF model. Volinga demonstrated significant potential in enabling NeRF integration within real-time rendering engines and further applications within the Industrial Metaverse. The research highlights the feasibility of using NeRFs and Unreal Engine 5 for industrial applications and interactive 3D experiences
+Utilizing Volinga, a plugin designed to render NeRFs in Unreal Engine 5. the team created a digital twin of Equinors business center, each room representing an individual level containing a unique NeRF model. The project demonstrated significant potential in enabling NeRF integration within real-time rendering engines and further applications within the Industrial Metaverse. The research highlights the feasibility of using NeRFs and Unreal Engine 5 for industrial applications and interactive 3D experiences
 
 <div id="introduction"></div>
 
