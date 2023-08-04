@@ -72,8 +72,8 @@ Hyper-wide typically offers little benefit and might only help capture extremely
 
 ### 🎮 NeRF in Unreal Engine
 #### Requirements
-#### - Beefy computer
-#### - Volinga
+- Beefy computer
+- Volinga
 
 
 ### Volinga - Completely new technology, plugin works, exporter works
