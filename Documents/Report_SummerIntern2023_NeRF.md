@@ -141,7 +141,7 @@ Does not work in enterprise mode for VR and unreal engine. Struggled to connect 
 Difficult to set up, need to set up the sensors. You have to use cable. A good headset, but we would recommend Oculus
 
 ### SteamVR
-Works with Oculus, but not enterprise Oculus.
+Works with Oculus, but not enterprise Oculus. We used it to get VR to work with InstantNGP
 
 
 <div id="other-relevant-technologies"></div>
