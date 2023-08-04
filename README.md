@@ -15,7 +15,7 @@ This project provides a unique 3D exploration experience through the use of Neur
 
 We hope you enjoy this immersive experience of exploring the Equinor Business Center in Unreal Engine 5. Happy exploring!
 
-The following is a report of our findings this summer.
+**The Following presents a comprehensive summary of our research findings and achievements during our summer internship project for [Equinor](https://www.equinor.com).""
 
 # An Exploration of the Implementation of NeRF with Unreal Engine 5
 
