@@ -24,7 +24,7 @@ Video showing the project: [https://youtu.be/MIEbp1fxDJo](https://youtu.be/I6brS
 
 [![Watch the video](https://img.youtube.com/vi/I6brS7sqggk/0.jpg)](https://youtu.be/I6brS7sqggk)
 
-Note: We found that moving too fast while watching the video without control over the player could be found nauseating for the viewer. The framerate in Unreal Engine is better than the one you can see in the video, typically around 30fps
+Note: We found that moving too fast while watching the video without control over the player induced discomfort or nausea for some viewers. In terms of performance, the framerate in Unreal Engine surpasses that of the video, averaging around 30 fps.
 
 ## Table of Content
 - [📑 Abstract](#abstract)
