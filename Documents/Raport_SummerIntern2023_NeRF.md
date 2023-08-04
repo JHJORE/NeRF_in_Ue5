@@ -37,9 +37,15 @@ NeRFs have several advantages over traditional 3D reconstruction methods:
 2. They can synthesize views from arbitrary viewpoints, even if those viewpoints were not included in the training data.
 3. They can do this in real-time, making them suitable for virtual and augmented reality applications.
 
+### Advantages of Neural Radiance Fields
+A distinct advantage of NeRF models lies in their expedited training speed. Compared to other traditional techniques, NeRFs demonstrate an impressive ability to learn quickly, enabling quicker results and enhancing productivity. Furthermore, the accessibility of NeRFs is remarkably high. For instance, the data required to train a NeRF model can be simply obtained using a regular smartphone, eliminating the need for high-end hardware.
+Another beneficial attribute of NeRFs is their superior capability to capture shadows and reflections more effectively than other methods. This leads to a more detailed and realistic representation of the 3D environment. NeRFs are also notable for maintaining relevant scale among all objects in the scene, resulting in accurate spatial relationships and depth perception.
+Moreover, NeRF models offer a significant advantage in data storage and management. They utilize a highly compressed representation, keeping the data volume low and manageable, and hence are not data heavy.
 
-### Problem with all NeRF models: 
-have to get camera positions. Normally done using colmap, but this takes quite some time. Can use other applications or use Lidar data, but then you need special hardware. iPhones have Lidar capabilities and can use certain apps, android phones don’t have this.
+### Challenges with NeRF models: 
+Despite the substantial advantages that NeRF models present, particular challenges persist. One such issue is the tendency for the rendered images to appear blurry, potentially leading to inaccurate point clouds and compromised visual fidelity.
+The process of training NeRF models also presents a challenge regarding time consumption. Acquiring photo positions, typically performed using Colmap, can be pretty time-consuming. Although alternatives exist, such as using Lidar data or other applications, these options necessitate specific hardware. For example, while iPhones can leverage their built-in Lidar capabilities through certain apps, Android phones do not offer this feature. Therefore, if the option to substitute Colmap arises, it is highly recommended due to its potential to reduce training times.
+Lastly, a common constraint in traditional NeRF implementation is the requirement for a defined center during training. The conventional usage of NeRFs leans towards object capture rather than environmental representation, demanding a clearly defined center around which to navigate during filming. Some models have been developed that do not require this, but they order highly specialized hardware, have lengthy training periods, and are challenging to replicate. As technology evolves, it is hoped that these limitations can be overcome, thereby broadening the use cases and accessibility of NeRF models.
 
 ### Google Pixel Camera
 OK camera, it can produce OK nerfs.
