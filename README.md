@@ -105,7 +105,7 @@ As of writing, Volinga is a new plugin still in beta. Volinga has a singular pur
 
 DISCLAIMER
 
-If you upload your chkpt or video to their website, it is connected to Volingas cloud. Any sensitive information should not be uploaded! If you need to upload sensitive information, contact them and ask for their desktop, which offers local training.
+If you upload your chkpt file or video to their website, it is connected to Volingas cloud. Any sensitive information should not be uploaded! If you need to upload sensitive information, contact them and ask for their desktop, which offers local training.
 
 ### Volinga Desktop
 Volinga also offers an enterprise desktop solution. This desktop variant currently provides the same features as their website, albeit with minor modifications. The desktop version only accepts checkpoint files for export, not videos, and these checkpoint files must be trained using NeRFStudio version 0.3.1.
