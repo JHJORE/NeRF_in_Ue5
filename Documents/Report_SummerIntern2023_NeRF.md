@@ -79,7 +79,6 @@ Hyper-wide typically offers little benefit and might only help capture extremely
 
 
 ### Volinga - Completely new technology, plugin works, exporter works
-Volinga 
 As of writing, Volinga is a new plugin still in beta. Volinga only has one purpose of making NeRF compatible with the UnrealEngine 5. It accomplishes this by converting a checkpoint file into a format (.nvol) compatible with UnrealEngine 5. Notably, Volinga accepts video inputs, trains a NeRF based on it, and converts the checkpoint file into .nvol format. 
 
 Since Volinga is a new start-up, they are very accommodating and active on Discord and email. We highly recommend contacting their team if you have any bugs or requests.
