@@ -1,13 +1,24 @@
 # Title: Rapport An Exploration of the Implementation of NeRF with Unreal Engine 5
 
-## Introduction
-- Executive Summary
+## Table of Content
+- Abstract
+- Introduction
 - Nerf
 - UnrealEngine 5
 - Nerf in Unreal Engine
 - Explored Technologies
 - Other Relevant Technologies
 - Conclusion
+
+## Abstract
+## Introduction
+Neural radiance fields (NeRF) are a new and emerging technology that has the potential to revolutionize the way we create and interact with 3D content. NeRFs are a type of Machine model that can be trained to represent a scene's 3D geometry and appearance from a set of 2D images. Once trained, a NeRF can be used to generate novel views of the scene from any angle and create interactive 3D experiences.
+The current state of NeRF research is rapidly evolving. In the past few years, there have been significant advances in the accuracy and efficiency of NeRF models. As a result, NeRFs are now being used in a variety of applications, including robotics, computer graphics, and virtual reality.
+
+This report delves into the promising prospects of Neural Radiance Fields (NeRF) in its application within Equinor. Initially executed as a summer intern project, the investigation provided a proof-of-concept emphasizing the practicality of deploying NeRF in creating digital twins. To bring this concept to life, Unreal Engine 5 was employed as the physics engine underpinning the NeRF models.
+The outcomes of this initiative were encouraging, indicating that NeRF holds significant potential to become an invaluable tool within Equinor's arsenal. The report concludes with a discussion the future possibilities for NeRF at Equinor.
+
+
   
 ## Nerfs
 
