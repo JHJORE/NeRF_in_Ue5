@@ -11,7 +11,7 @@ This project provides a unique 3D exploration experience through the use of Neur
 2. Get the Volinga Plugin: Visit the [Volinga.ai](https://volinga.ai/) website and download the Volinga plugin.
 3. Enable Volinga Plugin in Unreal Engine 5: Open Unreal Engine 5 and navigate to the plugin settings. Search for the Volinga plugin and enable it. You might need to restart Unreal Engine for the changes to take effect.
 4. Open the Project: Navigate to the location of the StichedneRF_2.uproject file in your file explorer. Double-click the file to open the project in Unreal Engine 5.
-5. Explore Equinor Business Center: Upon successfully loading the project, you can start exploring the 3D environment of the Equinor Business Center.
+5. Explore Equinor Business Center: Upon successfully loading the project, you can start exploring the 3D environment of the Equinor Business Center. When moving around, it is important to always hold down the right trigger on the mouse. If not, the framerate will drop significantly. 
 
 We hope you enjoy this immersive experience of exploring the Equinor Business Center in Unreal Engine 5. Happy exploring!
 
