@@ -13,11 +13,11 @@
 
 <div id="abstract"></div>
 
-## Abstract
+## 📑 Abstract
 
 <div id="introduction"></div>
 
-## Introduction
+## 🚀 Introduction
 Neural radiance fields (NeRF) are a new and emerging technology that has the potential to revolutionize the way we create and interact with 3D content. NeRFs are a type of Machine Learning model that can be trained to represent a scene's 3D geometry and appearance from a set of 2D images. Once trained, a NeRF can be used to generate novel views of the scene from any angle and create interactive 3D experiences.
 The current state of NeRF research is rapidly evolving. In the past few years, there have been significant advances in the accuracy and efficiency of NeRF models. As a result, NeRFs are now being used in a variety of applications, including robotics, computer graphics, and virtual reality.
 
@@ -26,7 +26,7 @@ The outcomes of this initiative were encouraging, indicating that NeRF holds sig
 
 <div id="nerf"></div>
 
-## Nerf
+## 🔮 Nerf
 #### Requirement: 
 - GPU to Train the NeRF model
 
@@ -68,11 +68,11 @@ GoPro does not produce better nerfs than a phone camera, only the wide feature t
 
 <div id="unrealengine-5"></div>
 
-## Unreal Engine
+## 🎮 Unreal Engine
 
 <div id="nerf-in-unreal-engine"></div>
 
-### NeRF in Unreal Engine
+### 🎮 NeRF in Unreal Engine
 #### Requirements
 #### Volinga
 
@@ -101,7 +101,7 @@ Volinga does not work with VR yet, but they have said that they will add this fu
 
 <div id="explored-technologies"></div>
 
-## Explored Technologies
+## 🔍 Explored Technologies
 
 ### Instant-NGP - [GitHub](https://github.com/bycloudai/instant-ngp-Windows)
 It worked well, not too difficult to set up. A big upside with it is its speed, it is a lot faster than NeRFStudio. It also works with VR. We did not do anything more than exploring with it because we found no other uses, there was no way to incorporate it into Unreal Engine. 
@@ -139,7 +139,7 @@ Works with Oculus, but not enterprise Oculus.
 
 <div id="other-relevant-technologies"></div>
 
-## Other Relevant Technology
+## 🔧 Other Relevant Technologies
 The following technologies can be relevant for exploration, unfortunately, we did not get to explore them.
 
 ### Luma
@@ -150,5 +150,5 @@ No one had IOS so we couldn't test it. Seems interesting to not have to use colm
 
 <div id="conclusion"></div>
 
-## Conclusion
+## 🏁 Conclusion
 
