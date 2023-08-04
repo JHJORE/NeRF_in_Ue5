@@ -168,7 +168,7 @@ Works with Oculus, but not enterprise Oculus. We used it to get VR to work with 
 The following technologies can be relevant for exploration, unfortunately, we did not get to explore them.
 
 ### Luma
-Expensive. We don't think it will work as well with rooms as it does with objects and we don't know how of if it works with Unreal Engine.
+It was too expensive for us to test. We don't think it will work as well with rooms as it does with objects and we don't know how of if it works with Unreal Engine.
 
 ### PolyCam
 No one had IOS so we couldn't test it. Seems interesting to not have to use colmap, you can save a lot of time. 
