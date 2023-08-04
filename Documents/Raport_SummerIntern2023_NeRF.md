@@ -48,12 +48,6 @@ Depending on what model, it produces mid to high models.
 #### Volinga
 
 
-### Google Pixel Camera
-OK camera, it can produce OK nerfs.
-
-### Samsung Camera
-Depending on what model, it produces mid to high models.
-
 ### Problem with all NeRF models: 
 have to get camera positions. Normally done using colmap, but this takes quite some time. Can use other applications or use Lidar data, but then you need special hardware. iPhones have Lidar capabilities and can use certain apps, android phones don’t have this.
 
