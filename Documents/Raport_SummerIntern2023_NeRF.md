@@ -62,13 +62,11 @@ During our weeks it only worked with NeRFStudio version 0.3.1. Otherwise the chk
 
 
 ### Volinga with Unreal
-A Volinga nerf actor which stores the nerf model. Can size it, change scale. This means you can get a lifelike size so when you walk around in first person you don't feel too small or too large.
+Volinga has a plugin you can download on their website. After you download it you have to put it in the Plugin-folder of Unreal Engine. This gives the Volinga nerf actor which stores the nerf model. You can change size of the cube to remove the parts of the model that aren’t relevant, taking away all the NeRF-fog. You can also change the scale of the model. 
+The earlier version of the plugin had some problems, but the newest version we teste was more stable. 
+One problem with the plugin is that you can only have one Volinga NeRF actor in one level, so stitching rooms or buildings together requires multiple levels and NeRF actors.
 
-Had some problems with the plugin in earlier versions, the newest version is more stable.
-
-One problem is that you can only have one Volinga NeRF actor in one level, so stitching rooms or buildings together requires multiple levels and NeRF actors.
-
-Each room is its own level with its own NeRF model, and going from one room to another is done by having a trigger point that opens another level and spawns in the player at a preset spawn point.
+The way we made the business center was by making each room its own level with its own NeRF model. Going from one room to another was done by having a trigger point that opens another level and spawns in the player at a preset spawn point.
 
 There is probably an easier way to do it than the way we did it, but as we were totally new to Unreal Engine, this was the best we managed to do.
 
