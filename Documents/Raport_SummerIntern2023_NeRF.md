@@ -62,9 +62,6 @@ Depending on what model, it produces mid to high models.
 #### Volinga
 
 
-### Problem with all NeRF models: 
-have to get camera positions. Normally done using colmap, but this takes quite some time. Can use other applications or use Lidar data, but then you need special hardware. iPhones have Lidar capabilities and can use certain apps, android phones don’t have this.
-
 ### Volinga - Completely new technology, plugin works, exporter works
 You use Volinga to export a .chkpt file or video/images into an .nvol file that you can use in Unreal Engine to view the nerf model. If you use the site, you have to be aware that it is connected to their coud, so they will get access to any sensitive data trained on it. They have an enterprise license you can buy that gives you access to a desktop app. In this you can train data locally, which enables sensitive data. 
 When training on the site, you can upload photos, videos, and .chkpt-files. When using the desktop app you can only use .chkpt-files. Using NeRFStudio is necessary when using the desktop app to train the .chkpt-file. 
