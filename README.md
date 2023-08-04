@@ -167,9 +167,9 @@ It works with Oculus, but we couldn't get it to work with enterprise Oculus. We 
 ## 🔧 Other Relevant Technologies
 There are several other technologies that are pertinent to the field of our project and warrant further investigation. Due to various constraints, we were unable to explore these during the course of our work.
 
-**Luma:** This technology stands as a potential option, albeit with a considerable price tag that may limit its accessibility. Our preliminary analysis suggests that Luma might not perform as proficiently with room-scale models as it does with individual objects. Additionally, its compatibility and interoperability with Unreal Engine are yet to be determined, which could impact its usefulness within our project context.
+**[Luma Labs](https://lumalabs.ai/):** This technology stands as a potential option, albeit with a considerable price tag that may limit its accessibility. Our preliminary analysis suggests that Luma might not perform as proficiently with room-scale models as it does with individual objects. Additionally, its compatibility and interoperability with Unreal Engine are yet to be determined, which could impact its usefulness within our project context.
 
-**PolyCam:** PolyCam represents a promising avenue, particularly with its potential to bypass the need for Colmap, offering the prospect of significant time savings. Unfortunately, we were unable to carry out a practical evaluation of PolyCam as it necessitates iOS, which was not available among our team members.
+**[PolyCam](https://poly.cam/):** PolyCam represents a promising avenue, particularly with its potential to bypass the need for Colmap, offering the prospect of significant time savings. Unfortunately, we were unable to carry out a practical evaluation of PolyCam as it necessitates iOS, which was not available among our team members.
 <div id="conclusion"></div>
 
 ## 🏁 Conclusion
