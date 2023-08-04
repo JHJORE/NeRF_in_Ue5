@@ -79,14 +79,12 @@ Hyper-wide typically offers little benefit and might only help capture extremely
 
 
 ### Volinga - Completely new technology, plugin works, exporter works
-As of writing, Volinga is a new plugin still in beta. Volinga has a singular purpuse of making NeRF compatible with the UnrealEngine 5. It accomplishes this by converting a checkpoint file into a format (.nvol) compatible with UnrealEngine 5. Notably, Volinga accepts video inputs, trains a NeRF based on it, and converts the checkpoint file into .nvol format. 
-
-Since Volinga is a new start-up, they are very accommodating and active on Discord and email. We highly recommend contacting their team if you have any bugs or requests.
+As of writing, Volinga is a new plugin still in beta. Volinga has a singular purpuse of making NeRF compatible with the UnrealEngine 5. It accomplishes this by converting a checkpoint file into a format (.nvol) compatible with UnrealEngine 5. Notably, Volinga accepts video inputs, trains a NeRF based on it, and converts the checkpoint file into .nvol format.  Since Volinga is a new start-up, they are very accommodating and active on Discord and email. We highly recommend contacting their team if you have any bugs or requests.
 
 DISCLAIMER
 If you upload your chkpt or video to their website, it is connected to Volingas cloud. Any sensitive information should not be uploaded! If you need to upload sensitive information, contact them and ask for their desktop, which offers local training.
 
-Volinga Desktop
+### Volinga Desktop
 Volinga also offers an enterprise desktop solution. This desktop variant currently provides the same features as their website, albeit with minor modifications. The desktop version only accepts checkpoint files for export, not videos, and these checkpoint files must be trained using NeRFStudio version 0.3.1.
 
 
