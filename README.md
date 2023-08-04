@@ -128,10 +128,7 @@ Looked like an interesting NeRF model to explore. However, we couldn't get it to
 
 
 #### LocalRF
-Was hard to even make the code from the repo work. The documentation was bad. Hard to even run. Additionally, when we got it to run it took forever to train. The output did not look like the paper at all. Would be interesting to integrate if we could travel in any path and training was quicker.
-
-Learning, always be skeptical of new technology. If it's from a credible university or company it does not matter. It will be hard to replicate.
-
+The documentation was bad so it was hard to even make the code from the repo work. Additionally, when we got it to run it took forever to train. The output did not look like the paper at all. Would be interesting to integrate if we could travel in any path and training was quicker.
 
 
 #### Multiplayer plugin (did not work with Volinga)
