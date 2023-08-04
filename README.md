@@ -23,6 +23,8 @@ Video showing the project: [https://youtu.be/MIEbp1fxDJo](https://youtu.be/I6brS
 
 [![Watch the video](https://img.youtube.com/vi/I6brS7sqggk/0.jpg)](https://youtu.be/I6brS7sqggk)
 
+Note: the framerate in game is better than the one we got when recording this demo
+
 ## Table of Content
 - [📑 Abstract](#abstract)
 - [🚀 Introduction](#introduction)
