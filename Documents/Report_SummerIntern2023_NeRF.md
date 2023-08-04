@@ -80,7 +80,8 @@ GoPro does not produce better nerfs than a phone camera, only the wide feature t
 
 ### 🎮 NeRF in Unreal Engine
 #### Requirements
-#### Volinga
+#### - Beefy computer
+#### - Volinga
 
 
 ### Volinga - Completely new technology, plugin works, exporter works
