@@ -4,7 +4,7 @@ This project provides a unique 3D exploration experience through the use of Neur
 **Requirements**
 1. Unreal Engine 5
 2. Volinga Plugin
-3. (Optional)GPU to handle NeRF training
+3. (Optional) GPU to handle NeRF training
 
 **Setup and Running the Project**
 1. Install Unreal Engine 5: If you haven't already, download and install Unreal Engine 5 from the [Official Website](https://www.unrealengine.com/en-US).
