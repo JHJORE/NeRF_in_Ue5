@@ -1,6 +1,23 @@
 # StitchedNeRF_2
-This is a project that has taken multiple NeRF models, exported them into Unreal Engine 5, and stitched the NeRF models together such that it creates one giant NeRF model the player can play through and explore. To run the project, you need Unreal Engine 5, the Volinga plugin from volinga.ai. This also needs to be enabled from the plugin settings in Unreal engine. If the previous steps are done successfully you can start exploring the Equinor Business Center by launching the StichedneRF_2.uproject in ue5 
+This project provides a unique 3D exploration experience through the use of Neural Radiance Fields (NeRFs). We've taken multiple NeRF models, exported them into Unreal Engine 5, and stitched them together to create one extensive NeRF model. This combined model represents a detailed replica of the Equinor Business Center that players can navigate and explore.
 
+**Requirements**
+Unreal Engine 5: The project is built in Unreal Engine 5, which you need to have installed on your system. You can download it from the Unreal Engine website.
+
+Volinga Plugin: The project uses the Volinga plugin to handle the NeRF models. You can get the plugin from the Volinga.ai website.
+
+**Setup and Running the Project**
+Install Unreal Engine 5: If you haven't already, download and install Unreal Engine 5 from the official website.
+
+Get the Volinga Plugin: Visit the Volinga.ai website and download the Volinga plugin.
+
+Enable Volinga Plugin in Unreal Engine 5: Open Unreal Engine 5 and navigate to the plugin settings. Search for the Volinga plugin and enable it. You might need to restart Unreal Engine for the changes to take effect.
+
+Open the Project: Navigate to the location of the StichedneRF_2.uproject file in your file explorer. Double-click the file to open the project in Unreal Engine 5.
+
+Explore Equinor Business Center: Upon successfully loading the project, you can start exploring the 3D environment of the Equinor Business Center.
+
+We hope you enjoy this immersive experience of exploring the Equinor Business Center in Unreal Engine 5. Should you encounter any problems or have any suggestions, please do not hesitate to reach out. Happy exploring!
 The following is a report of our findings this summer
 
 # An Exploration of the Implementation of NeRF with Unreal Engine 5
