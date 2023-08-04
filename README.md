@@ -21,7 +21,7 @@ We hope you enjoy this immersive experience of exploring the Equinor Business Ce
 
 Video showing the project: [https://youtu.be/MIEbp1fxDJo](https://youtu.be/I6brS7sqggk)
 
-[![Watch the video](https://img.youtube.com/vi/I6brS7sqggk/default.jpg)](https://youtu.be/I6brS7sqggk)
+[![Watch the video](https://img.youtube.com/vi/I6brS7sqggk/0.jpg)](https://youtu.be/I6brS7sqggk)
 
 ## Table of Content
 - [📑 Abstract](#abstract)
