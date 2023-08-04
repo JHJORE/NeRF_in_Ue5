@@ -149,7 +149,7 @@ An intriguing NeRF model, but proved impractical due to technical issues with th
 The tool's poor documentation posed challenges in making the repo work. Moreover, the prolonged training time and discrepancies in output as compared to the paper rendered it unattractive. Nonetheless, if issues with the training duration and path navigation were resolved, integration might prove beneficial.
 
 
-#### Multi user editor - plugin (did not work with Volinga)
+#### Multi user editor - plugin for Unreal Engine (did not work with Volinga)
 - Major drawback, with the current version of Volinga.ai multiuse editor, is rendered useless.
 - Worked decently, not very easy to use and to set up. We had some problems with persistence and with using Git. Recommend watching the [video](https://www.youtube.com/watch?v=MPIpOdNmNGE) from unreal on how it is used. It does work well if you are using traditional unreal engine tools.
 - Git support is in Beta, works decently, but we have experienced some issues and some merge conflicts. Fixing merge conflicts doesn't work, we had to revert some changes.
