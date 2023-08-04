@@ -139,26 +139,28 @@ Very easy to use and a lot of documentation. We tried both running NeRFStudio di
 	- The training method that gives you the .chkpt-file you can use with the Volinga exporter. 
 
 #### MERF - [GitHub](https://creiser.github.io/merf/)
-Looked like an interesting NeRF model to explore. However, we couldn't get it to work. When trying to run it we encountered issues with the requirements.txt, we did not manage to install all requirements. This meant that running the code was impossible for us. 
+An intriguing NeRF model, but proved impractical due to technical issues with the requirements.txt, preventing us from installing all requirements and consequently running the code.
 
 
 #### LocalRF - [GitHub](https://localrf.github.io/)
-The documentation was bad so it was hard to even make the code from the repo work. Additionally, when we got it to run it took forever to train. The output did not look like the paper at all. Would be interesting to integrate if we could travel in any path and training was quicker.
+The tool's poor documentation posed challenges in making the repo work. Moreover, the prolonged training time and discrepancies in output as compared to the paper rendered it unattractive. Nonetheless, if issues with the training duration and path navigation were resolved, integration might prove beneficial.
 
 
 #### Multi user editor - plugin (did not work with Volinga)
+- Major drawback, with the current version of Volinga.ai multiuse editor, is rendered useless.
 - Worked decently, not very easy to use and to set up. We had some problems with persistence and with using Git. Recommend watching the [video](https://www.youtube.com/watch?v=MPIpOdNmNGE) from unreal on how it is used. It does work well if you are using traditional unreal engine tools.
 - Git support is in Beta, works decently, but we have experienced some issues and some merge conflicts. Fixing merge conflicts doesn't work, we had to revert some changes.
+
 
 #### Oculus
 In enterprise mode, we experienced difficulties with VR and Unreal Engine compatibility. Connecting the headset to our computers wirelessly also presented challenges. However, switching to consumer mode resolved these issues. While we successfully established a wired connection between the headset and our PCs, wireless connectivity proved problematic on Equinor's network, though it was achievable at home.
 
 
 #### HTC Vive
-It was difficult to set up because the requirement for setting up the sensors can be difficult to achieve in some types of roomes. You also have to use cable. A good headset, but we would recommend Oculus
+HTC Vive: Despite providing a quality VR experience, the setup process, especially concerning sensor arrangement, was troublesome. The cable requirement might be a drawback for some users. Oculus would be our recommendation over the HTC Vive.
 
 #### SteamVR
-It works with Oculus, but we couldn't get it to work with enterprise Oculus. We used it to get VR to work with InstantNGP
+SteamVR: Functioned well with Oculus but faced issues with enterprise Oculus. Used successfully to implement VR with InstantNGP.
 
 
 <div id="other-relevant-technologies"></div>
