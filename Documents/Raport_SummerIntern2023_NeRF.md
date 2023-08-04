@@ -25,7 +25,7 @@ The outcomes of this initiative were encouraging, indicating that NeRF holds sig
 
 <div id="nerf"></div>
 
-## Nerfs
+## Nerf
 #### Requirement: 
 - GPU to Train the NeRF model
 
