@@ -1,7 +1,7 @@
 # StitchedNeRF_2
 This is a project that has taken multiple NeRF models, exported them into Unreal Engine 5, and stitched the NeRF models together such that it creates one giant NeRF model the player can play through and explore. To run the project, you need Unreal Engine 5, the Volinga plugin from volinga.ai. This also needs to be enabled from the plugin settings in Unreal engine. If the previous steps are done successfully you can start exploring the Equinor Business Center by launching the StichedneRF_2.uproject in ue5 
 
-The following is a reprt 
+The following is a report of our findings this summer
 
 # An Exploration of the Implementation of NeRF with Unreal Engine 5
 
