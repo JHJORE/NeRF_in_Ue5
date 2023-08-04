@@ -1,4 +1,4 @@
-# Title: An Exploration of the Implementation of NeRF with Unreal Engine 5
+ # Title: An Exploration of the Implementation of NeRF with Unreal Engine 5
 
 # Video showing the project: https://youtu.be/MIEbp1fxDJo
 
@@ -48,7 +48,7 @@ Another beneficial attribute of NeRFs is their capability to capture shadows and
 ### Challenges with NeRF models: 
 Despite the substantial advantages that NeRF models present, particular challenges persist. One such issue is the tendency for the rendered images to appear blurry, potentially leading to inaccurate point clouds and compromised visual fidelity. The biggest time constraint for NeRF is the pre-processing of training data. Sorting a photo position relative to other photos is typically performed using Colmap. Although alternatives exist, such as using Lidar, these options necessitate specific hardware. For example, while iPhones can leverage their built-in Lidar capabilities,  Android phones do not offer this feature. Therefore, if the option to substitute Colmap arises, it is highly recommended.
 
-Lastly, a common constraint in traditional NeRF implementation is the requirement for a defined center during video filming. The conventional usage of NeRFs leans towards object capture rather than environmental representation, demanding a clearly defined center around which to navigate during filming. Some models have been developed not requiring this, such as  [LocalRF](https://github.com/facebookresearch/localrf), but they require highly specialized hardware, have long training periods, and are challenging to replicate the code. As technology evolves, it is hoped that these limitations can be overcome, thereby broadening the use cases and accessibility of NeRF models.
+Lastly, a common constraint in traditional NeRF implementation is the requirement for a defined center during video filming. The conventional usage of NeRFs leans towards object capture  rather than environmental representation, demanding a clearly defined center around which to navigate during filming. Some models have been developed not requiring this, such as  [LocalRF](https://github.com/facebookresearch/localrf), but they require highly specialized hardware, have long training periods, and are challenging to replicate the code. As technology evolves, it is hoped that these limitations can be overcome, thereby broadening the use cases and accessibility of NeRF models.
 
 ### How to Capture a Good NeRF
 The methods to capture a NeRF vary depending on the subject of interest. Leveraging the default high-resolution phone camera setting is ideal for object capture. It is advisable to film the object of interest three times from distinct perspectives. The initial filming should be done at the standard level, followed by a low-angle shot, and finally, from a high angle. This ensures comprehensive coverage of all possible angles of the object.
@@ -89,7 +89,7 @@ Volinga also offers an enterprise desktop solution. This desktop variant current
 
 
 ### Volinga with Unreal
-For effectively incorporating the Volinga plugin with Unreal Engine 5, following the detailed guidelines provided in [Volinga's documentation](https://volinga.ai/early_access/index.html)is advisable. 
+For effectively incorporating the Volinga plugin with Unreal Engine 5, following the detailed guidelines provided in [Volinga's documentation](https://volinga.ai/early_access/index.html) is advisable. 
 
 Essentially, Volinga establishes a cubic NeRF actor that houses the NeRF model as an internal mesh. This cube's dimensions can be altered to excise irrelevant portions of the model, thereby eliminating any NeRF-fog. The model's scale can also be adjusted as needed. It should be noted that within Unreal Engine 5, the NeRF model lacks physical properties, functioning instead like a hologram. However, by utilizing the tools available in Unreal Engine 5 to superimpose a physical environment onto the NeRF, the model appears to possess physical properties and can interact with all items within the Unreal Engine 5 environment. While early plugin versions faced stability issues, the most recent version we examined proved significantly more stable.
 
