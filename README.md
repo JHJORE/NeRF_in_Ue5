@@ -19,9 +19,9 @@ We hope you enjoy this immersive experience of exploring the Equinor Business Ce
 
 # An Exploration of the Implementation of NeRF with Unreal Engine 5
 
-Video showing the project: https://youtu.be/MIEbp1fxDJo
+Video showing the project: [https://youtu.be/MIEbp1fxDJo](https://youtu.be/I6brS7sqggk)
 
-[![Watch the video](https://img.youtube.com/vi/MIEbp1fxDJo/default.jpg)](https://youtu.be/MIEbp1fxDJo)
+[![Watch the video](https://img.youtube.com/vi/MIEbp1fxDJo/default.jpg)]([https://youtu.be/MIEbp1fxDJo](https://youtu.be/I6brS7sqggk))
 
 ## Table of Content
 - [📑 Abstract](#abstract)
