@@ -151,7 +151,7 @@ The documentation was bad so it was hard to even make the code from the repo wor
 - Git support is in Beta, works decently, but we have experienced some issues and some merge conflicts. Fixing merge conflicts doesn't work, we had to revert some changes.
 
 #### Oculus
-It did not work in enterprise mode for VR and unreal engine. Struggled to connect to the computer wirelessly in enterprise mode. All the following problems were solved when it was set to consumer mode. We managed to connect the headset to our PCs using a cable. When we tried to connect it to our PCs wirelessly, we could not get it to work on the Equinor internet, but we made it work on networks at home. 
+In enterprise mode, we experienced difficulties with VR and Unreal Engine compatibility. Connecting the headset to our computers wirelessly also presented challenges. However, switching to consumer mode resolved these issues. While we successfully established a wired connection between the headset and our PCs, wireless connectivity proved problematic on Equinor's network, though it was achievable at home.
 
 
 #### HTC Vive
