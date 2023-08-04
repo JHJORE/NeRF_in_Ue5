@@ -92,8 +92,6 @@ Was hard to even make the code from the repo work. The documentation was bad. Ha
 
 Learning, always be skeptical of new technology. If it's from a credible university or company it does not matter. It will be hard to replicate.
 
-### Luma
-Expensive. We don't think it will work as well with rooms as it does with objects and we don't know how of if it works with Unreal Engine.
 
 ### PolyCam - No one had IOS so we couldn't test it.
 
@@ -128,6 +126,9 @@ GoPro does not produce better nerfs than a phone camera, only the wide feature t
 
 ## Other Relevant Technology
 The following technologies can be relevant for exploration, unfortunately, we did not get to explore them.
+
+### Luma
+Expensive. We don't think it will work as well with rooms as it does with objects and we don't know how of if it works with Unreal Engine.
 
 <div id="conclusion"></div>
 
