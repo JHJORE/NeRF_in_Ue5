@@ -2,8 +2,9 @@
 This project provides a unique 3D exploration experience through the use of Neural Radiance Fields (NeRFs) and Unreal Engine 5. We've taken multiple NeRF models, exported them into Unreal Engine 5, and stitched them together to create one extensive NeRF model. This combined model represents a detailed replica of the Equinor Business Center that players can navigate and explore.
 
 **Requirements**
-1. Unreal Engine 5: The project is built in Unreal Engine 5, which you need to have installed on your system. You can download it from the Unreal Engine website.
-2. Volinga Plugin: The project uses the Volinga plugin to handle the NeRF models. You can get the plugin from the Volinga.ai website.
+1. Unreal Engine 5
+2. Volinga Plugin
+3. (Optional)GPU to handle NeRF training
 
 **Setup and Running the Project**
 1. Install Unreal Engine 5: If you haven't already, download and install Unreal Engine 5 from the [Official Website](https://www.unrealengine.com/en-US).
