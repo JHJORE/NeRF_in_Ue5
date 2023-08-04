@@ -53,14 +53,14 @@ The methods to capture a NeRF vary depending on the subject of interest. Leverag
 
 On the other hand, capturing an environment requires a different strategy. The size of your area largely determines the approach, particularly influencing the degree of wide-angle used. With larger spaces, a greater wide angle is needed. This decision, however, comes with a trade-off: although a wide angle helps minimize blur and random point clouds, it might reduce the resolution of the NeRF. However, to maximize the quality of your NeRF model, it's advisable to implement an algorithm that eliminates blurry photos from your training data before initiating the training process. This pre-processing step significantly enhances the resultant NeRF's quality.
 
-
-### Google Pixel Camera
+#### IPhone
+#### Google Pixel Camera
 OK camera, it can produce OK nerfs.
 
-### Samsung Camera
+#### Samsung Camera
 Depending on what model, it produces mid to high models.
 
-### GoPro
+#### GoPro
 Camera mode: cinematic, wide, ultrawider, and hyperwide.
 Hyperwide does not work, quality shit, Could potentially work for very large environments.
 Ultrawide
