@@ -131,18 +131,18 @@ As of now, Volinga lacks compatibility with VR. However, the team has announced 
 #### Instant-NGP - [GitHub](https://github.com/bycloudai/instant-ngp-Windows)
 It worked well, not too difficult to set up. A big upside with it is its speed, it is a lot faster than NeRFStudio. It also works with VR. We did not do anything more than exploring with it because we found no other uses, there was no way to incorporate it into Unreal Engine. 
 
-#### NeRFStudio - [Github](https://github.com/equinor/eit-nerfstudio)
+#### NeRFStudio - [GitHub](https://github.com/equinor/eit-nerfstudio)
 Very easy to use and a lot of documentation. We tried both running NeRFStudio directly, and using the Docker image that Jonas made, and we preferred using the Docker image. We used it on windows with WSL using Distro and Ubuntu. 
 - Nerfacto
 	- The normal way of training NeRF models
 - Volinga
 	- The training method that gives you the .chkpt-file you can use with the Volinga exporter. 
 
-#### MERF - [Github](https://creiser.github.io/merf/)
+#### MERF - [GitHub](https://creiser.github.io/merf/)
 Looked like an interesting NeRF model to explore. However, we couldn't get it to work. When trying to run it we encountered issues with the requirements.txt, we did not manage to install all requirements. This meant that running the code was impossible for us. 
 
 
-#### LocalRF - [Github](https://localrf.github.io/)
+#### LocalRF - [GitHub](https://localrf.github.io/)
 The documentation was bad so it was hard to even make the code from the repo work. Additionally, when we got it to run it took forever to train. The output did not look like the paper at all. Would be interesting to integrate if we could travel in any path and training was quicker.
 
 
