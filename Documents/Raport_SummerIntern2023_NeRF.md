@@ -26,7 +26,18 @@ The outcomes of this initiative were encouraging, indicating that NeRF holds sig
 <div id="nerf"></div>
 
 ## Nerfs
-Compression, coldmap, other options than coldmap
+## Nerfs
+Requirement: 
+- GPU to Train the NeRF model
+
+**Neural Radiance Fields (NeRFs)**  implicitly represent 3D scenes that have recently shown great promise for photorealistic 3D reconstruction. NeRFs are trained to represent the radiance of a scene, which is the total amount of light emitted or reflected from a point in the scene. This information can then render novel views of the scene from arbitrary viewpoints.
+NeRFs are trained using a set of 2D images of a scene. The images are used to compute a rendering loss. These models take a 5D input - 3D coordinate for location and 2D for viewing direction - and output the color and density at that location when viewed from the given direction. The NeRF is then optimized to minimize the rendering loss.
+NeRFs have several advantages over traditional 3D reconstruction methods:
+
+They can represent scenes with complex geometry and appearance.
+They can synthesize views from arbitrary viewpoints, even if those viewpoints were not included in the training data.
+They can do this in real-time, making them suitable for virtual and augmented reality applications.
+
 
 ### Problem with all NeRF models: 
 have to get camera positions. Normally done using colmap, but this takes quite some time. Can use other applications or use Lidar data, but then you need special hardware. iPhones have Lidar capabilities and can use certain apps, android phones don’t have this.
