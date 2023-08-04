@@ -52,12 +52,14 @@ Depending on what model, it produces mid to high models.
 have to get camera positions. Normally done using colmap, but this takes quite some time. Can use other applications or use Lidar data, but then you need special hardware. iPhones have Lidar capabilities and can use certain apps, android phones don’t have this.
 
 ### Volinga - Completely new technology, plugin works, exporter works
+You use Volinga to export a .chkpt file or video/images into an .nvol file that you can use in Unreal Engine to view the nerf model. If you use the site, you have to be aware that it is connected to their coud, so they will get access to any sensitive data trained on it. They have an enterprise license you can buy that gives you access to a desktop app. In this you can train data locally, which enables sensitive data. 
+When training on the site, you can upload photos, videos, and .chkpt-files. When using the desktop app you can only use .chkpt-files. Using NeRFStudio is necessary when using the desktop app to train the .chkpt-file. 
+
+During our weeks it only worked with NeRFStudio version 0.3.1. Otherwise the chkpt-file is not compatible with the Volinga exporter. NeRFStudio or Volinga might have updated their applications later. 
+
 - Helpful, updated their plugin after we had a request for removing collision of the Volinga nerf actor
 - Active on Discord
 
-Easy to export NeRF chkpt-file to nvol-file to use in Unreal. The site is connected to the cloud, so you can't train any sensitive data using it. Have to get an enterprise license to be able to train locally on their desktop app. Have not tested it yet, but we assume it works the same as the site. When you use the site, you can also input a video, and they can train the model for you and export the nvol-file. When you use the desktop app you can only input chkpt-files, this means you have to train the model locally.
-
-Only works with NeRFStudio version 0.3.1. Otherwise the chkpt-file is not compatible with the Volinga exporter.
 
 ### Volinga with Unreal
 A Volinga nerf actor which stores the nerf model. Can size it, change scale. This means you can get a lifelike size so when you walk around in first person you don't feel too small or too large.
