@@ -1,4 +1,4 @@
-# Title: Rapport An Exploration of the Implementation of NeRF with Unreal Engine 5
+# Title: An Exploration of the Implementation of NeRF with Unreal Engine 5
 
 ## Table of Content
 - [Abstract](#abstract)
