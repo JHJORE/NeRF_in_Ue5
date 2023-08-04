@@ -1,5 +1,7 @@
 # Title: An Exploration of the Implementation of NeRF with Unreal Engine 5
 
+# Video showing the project: https://youtu.be/MIEbp1fxDJo
+
 ## Table of Content
 - [📑 Abstract](#abstract)
 - [🚀 Introduction](#introduction)
