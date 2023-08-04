@@ -21,9 +21,10 @@ We hope you enjoy this immersive experience of exploring the Equinor Business Ce
 
 Video showing the project: [https://youtu.be/MIEbp1fxDJo](https://youtu.be/I6brS7sqggk)
 
+
 [![Watch the video](https://img.youtube.com/vi/I6brS7sqggk/0.jpg)](https://youtu.be/I6brS7sqggk)
 
-Note: the framerate in Unreal Engine is better than the one you can see in the video
+Note: We found that moving too fast while watching the video without control over the player could be found nauseating for the viewer. The framerate in Unreal Engine is better than the one you can see in the video, typically around 30fps
 
 ## Table of Content
 - [📑 Abstract](#abstract)
