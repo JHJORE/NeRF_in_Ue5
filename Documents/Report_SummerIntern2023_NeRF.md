@@ -68,11 +68,10 @@ Hyper-wide typically offers little benefit and might only help capture extremely
 
 <div id="unrealengine-5"></div>
 
-## 🎮 Unreal Engine
+##  🎮 NeRF in Unreal Engine
 
 <div id="nerf-in-unreal-engine"></div>
 
-### 🎮 NeRF in Unreal Engine
 #### Requirements
 - Beefy computer
 - Volinga
