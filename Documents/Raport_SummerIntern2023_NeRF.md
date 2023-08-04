@@ -79,8 +79,12 @@ Volinga does not work with VR yet, but they have said that they will add this fu
 
 ### Instant-NGP - [GitHub](https://github.com/bycloudai/instant-ngp-Windows)
 ### NeRFStudio - [GitHub](https://github.com/equinor/eit-nerfstudio)
+Very easy to use and a lot of documentation. We tried both running NeRFStudio directly, and using the Docker image that Jonas made, and we preferred using the Docker image. We used it on windows with WSL using Distro and Ubuntu. 
 - Nerfacto
+	The normal way of training NeRF models
 - Volinga
+	The training method that gives you a .chkpt-file you can use with the Volinga exporter. 
+	This required version 0.3.1. To use this version you have to change the remote image version in the .env-file to "dromni/nerfstudio:0.3.1" and choose “2: Run prebuildt official image dromni/nerfstudio:0.3.1”
 
 ### MERF - did not work
 ### LocalRF
