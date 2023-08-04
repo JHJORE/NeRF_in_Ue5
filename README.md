@@ -64,7 +64,7 @@ NeRFs have several advantages over traditional 3D reconstruction methods:
 3. They can do this in real-time, making them suitable for virtual and augmented reality applications.
 
 ### Advantages of NeRF
-A distinct advantage of NeRF models lies in their expedited training speed. NeRFs demonstrate an impressive ability to train quickly compared to other traditional techniques. Furthermore, the accessibility of NeRFs is significant. For instance, the data required to train a NeRF model can be simply obtained using a regular smartphone, eliminating the need for high-end hardware. 
+A distinct advantage of NeRF models lies in their quick training speed. NeRFs demonstrate an impressive ability to train quickly compared to other traditional techniques. Furthermore, the accessibility of NeRFs is significant. For instance, the data required to train a NeRF model can be simply obtained using a regular smartphone, eliminating the need for high-end hardware. 
 
 Another beneficial attribute of NeRFs is their capability to capture shadows and reflections more effectively than other methods, leading to a more detailed and realistic representation of the 3D environment. NeRFs are also notable for maintaining relevant scale among all objects in the scene, resulting in accurate spatial relationships and depth perception, all while rending in real-time, allowing for a highly immersive experience. This makes it easy to integrate with VR and the Industrial Metaverse. Lastly, since the NeRF model is stored as values in a neural network. It is a surprisingly efficient method of compressing the file.
 
