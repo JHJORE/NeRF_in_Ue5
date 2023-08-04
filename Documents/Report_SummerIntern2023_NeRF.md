@@ -79,13 +79,17 @@ Hyper-wide typically offers little benefit and might only help capture extremely
 
 
 ### Volinga - Completely new technology, plugin works, exporter works
-You use Volinga to export a .chkpt file or video/images into an .nvol file that you can use in Unreal Engine to view the nerf model. If you use the site, you have to be aware that it is connected to their cloud, so they will get access to any sensitive data trained on it. They have an enterprise license you can buy that gives you access to a desktop app. With the desktop app you can train data locally, where you can use sensitive data. 
-When training on the site, you can upload photos, videos, and .chkpt-files. When using the desktop app you can only use .chkpt-files. Using NeRFStudio is necessary when using the desktop app to train the .chkpt-file. 
+Volinga 
+As of writing, Volinga is a new plugin still in beta. Volinga only has one purpose of making NeRF compatible with the UnrealEngine 5. It accomplishes this by converting a checkpoint file into a format (.nvol) compatible with UnrealEngine 5. Notably, Volinga accepts video inputs, trains a NeRF based on it, and converts the checkpoint file into .nvol format. 
 
-During our weeks it only worked with NeRFStudio version 0.3.1. Otherwise the chkpt-file is not compatible with the Volinga exporter. NeRFStudio or Volinga might have updated their applications later. 
+Since Volinga is a new start-up, they are very accommodating and active on Discord and email. We highly recommend contacting their team if you have any bugs or requests.
 
-- Helpful, updated their plugin after we had a request for removing collision of the Volinga nerf actor
-- Active on Discord
+DISCLAIMER
+If you upload your chkpt or video to their website, it is connected to Volingas cloud. Any sensitive information should not be uploaded! If you need to upload sensitive information, contact them and ask for their desktop, which offers local training.
+
+Volinga Desktop
+Volinga also offers an enterprise desktop solution. This desktop variant currently provides the same features as their website, albeit with minor modifications. The desktop version only accepts checkpoint files for export, not videos, and these checkpoint files must be trained using NeRFStudio version 0.3.1.
+
 
 
 ### Volinga with Unreal
