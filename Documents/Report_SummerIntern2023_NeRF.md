@@ -138,7 +138,7 @@ Does not work in enterprise mode for VR and unreal engine. Struggled to connect 
 
 
 ### HTC Vive
-Difficult to set up, need to set up the sensors.
+Difficult to set up, need to set up the sensors. You have to use cable. A good headset, but we would recommend Oculus
 
 ### SteamVR
 Works with Oculus, but not enterprise Oculus.
