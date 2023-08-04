@@ -51,6 +51,18 @@ OK camera, it can produce OK nerfs.
 ### Samsung Camera
 Depending on what model, it produces mid to high models.
 
+### GoPro
+Camera mode: cinematic, wide, ultrawider, and hyperwide.
+Hyperwide does not work, quality shit, Could potentially work for very large environments.
+Ultrawide
+Works well with large environments, similar to wide.
+Wide
+Similar results to ultrawide, better for large rooms.
+Normal best for normal nerf or small rooms.
+
+Used GoPro quickpro app: easy to use and export pictures.
+GoPro does not produce better nerfs than a phone camera, only the wide feature that gives it an advantage for larger rooms.
+
 <div id="unrealengine-5"></div>
 
 ## Unreal Engine
@@ -120,18 +132,6 @@ Difficult to set up, need to set up the sensors.
 
 ### SteamVR
 Works with Oculus, but not enterprise Oculus.
-
-### GoPro
-Camera mode: cinematic, wide, ultrawider, and hyperwide.
-Hyperwide does not work, quality shit, Could potentially work for very large environments.
-Ultrawide
-Works well with large environments, similar to wide.
-Wide
-Similar results to ultrawide, better for large rooms.
-Normal best for normal nerf or small rooms.
-
-Used GoPro quickpro app: easy to use and export pictures.
-GoPro does not produce better nerfs than a phone camera, only the wide feature that gives it an advantage for larger rooms.
 
 
 <div id="other-relevant-technologies"></div>
