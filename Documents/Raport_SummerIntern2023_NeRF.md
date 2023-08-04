@@ -93,8 +93,6 @@ Was hard to even make the code from the repo work. The documentation was bad. Ha
 Learning, always be skeptical of new technology. If it's from a credible university or company it does not matter. It will be hard to replicate.
 
 
-### PolyCam - No one had IOS so we couldn't test it.
-
 
 ### Multiplayer plugin (did not work with Volinga)
 - Worked decently, not very easy to use and to set up. We had some problems with persistence and with using Git. Recommend watching the video from unreal on how it is used. It does work well if you are using traditional unreal engine tools.
@@ -129,6 +127,9 @@ The following technologies can be relevant for exploration, unfortunately, we di
 
 ### Luma
 Expensive. We don't think it will work as well with rooms as it does with objects and we don't know how of if it works with Unreal Engine.
+
+### PolyCam
+No one had IOS so we couldn't test it. Seems interesting to not have to use colmap, you can save a lot of time. 
 
 <div id="conclusion"></div>
 
