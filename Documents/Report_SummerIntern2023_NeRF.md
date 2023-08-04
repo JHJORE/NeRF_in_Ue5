@@ -89,7 +89,7 @@ Volinga also offers an enterprise desktop solution. This desktop variant current
 
 
 ### Volinga with Unreal
-For effectively incorporating the Volinga plugin with Unreal Engine 5, following the detailed guidelines provided in Volinga's documentation is advisable. 
+For effectively incorporating the Volinga plugin with Unreal Engine 5, following the detailed guidelines provided in [Volinga's documentation](https://volinga.ai/early_access/index.html)is advisable. 
 
 Essentially, Volinga establishes a cubic NeRF actor that houses the NeRF model as an internal mesh. This cube's dimensions can be altered to excise irrelevant portions of the model, thereby eliminating any NeRF-fog. The model's scale can also be adjusted as needed. It should be noted that within Unreal Engine 5, the NeRF model lacks physical properties, functioning instead like a hologram. However, by utilizing the tools available in Unreal Engine 5 to superimpose a physical environment onto the NeRF, the model appears to possess physical properties and can interact with all items within the Unreal Engine 5 environment. While early plugin versions faced stability issues, the most recent version we examined proved significantly more stable.
 
