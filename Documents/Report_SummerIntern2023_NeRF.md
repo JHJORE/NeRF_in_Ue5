@@ -53,24 +53,16 @@ The methods to capture a NeRF vary depending on the subject of interest. Leverag
 
 On the other hand, capturing an environment requires a different strategy. The size of your area largely determines the approach, particularly influencing the degree of wide-angle used. With larger spaces, a greater wide angle is needed. This decision, however, comes with a trade-off: although a wide angle helps minimize blur and random point clouds, it might reduce the resolution of the NeRF. However, to maximize the quality of your NeRF model, it's advisable to implement an algorithm that eliminates blurry photos from your training data before initiating the training process. This pre-processing step significantly enhances the resultant NeRF's quality. Below is a list of commonly used cameras and their drawbacks with filming NeRF
 
-#### IPhone
+#### iPhone
+The iPhone currently stands as the premier choice for smartphone cameras.
 #### Google Pixel Camera
-OK camera, it can produce OK nerfs. When you take pictures instead of videoes, you get issues because of the image processing Google uses for the photos
-
+While the Google Pixel camera can produce satisfactory NeRFs, its reliance on post-processing to compensate for hardware limitations can cause issues. The post-processing may enhance photos for human observers, but it can mislead the AI during model training, leading to increased blurring.
 #### Samsung Camera
-Depending on what model, it produces mid to high models.
-
+The performance of Samsung's camera varies depending on the model, generally producing mid to high-end results. Nonetheless, in most instances, the iPhone camera tends to surpass the performance of Samsung's offering.
 #### GoPro
-Camera mode: cinematic, wide, ultrawider, and hyperwide.
-Hyperwide does not work, quality shit, Could potentially work for very large environments.
-Ultrawide
-Works well with large environments, similar to wide.
-Wide
-Similar results to ultrawide, better for large rooms.
-Normal best for normal nerf or small rooms.
+While the GoPro camera may not surpass smartphones in terms of quality, it provides a range of unique features. For GoPro, we suggest using the modes: Cinematic, Wide, Ultra-wide, and Hyper-wide. 
 
-Used GoPro quickpro app: easy to use and export pictures.
-GoPro does not produce better nerfs than a phone camera, only the wide feature that gives it an advantage for larger rooms.
+Hyper-wide typically offers little benefit and might only help capture extremely expansive environments. In contrast, Ultra-wide and Wide modes often yield excellent results, particularly for larger environments. The normal setting is most suitable for standard NeRFs or smaller rooms.
 
 <div id="unrealengine-5"></div>
 
