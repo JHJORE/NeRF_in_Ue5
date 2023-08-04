@@ -75,7 +75,7 @@ GoPro does not produce better nerfs than a phone camera, only the wide feature t
 
 
 ### Volinga - Completely new technology, plugin works, exporter works
-You use Volinga to export a .chkpt file or video/images into an .nvol file that you can use in Unreal Engine to view the nerf model. If you use the site, you have to be aware that it is connected to their coud, so they will get access to any sensitive data trained on it. They have an enterprise license you can buy that gives you access to a desktop app. In this you can train data locally, which enables sensitive data. 
+You use Volinga to export a .chkpt file or video/images into an .nvol file that you can use in Unreal Engine to view the nerf model. If you use the site, you have to be aware that it is connected to their cloud, so they will get access to any sensitive data trained on it. They have an enterprise license you can buy that gives you access to a desktop app. In this you can train data locally, which enables sensitive data. 
 When training on the site, you can upload photos, videos, and .chkpt-files. When using the desktop app you can only use .chkpt-files. Using NeRFStudio is necessary when using the desktop app to train the .chkpt-file. 
 
 During our weeks it only worked with NeRFStudio version 0.3.1. Otherwise the chkpt-file is not compatible with the Volinga exporter. NeRFStudio or Volinga might have updated their applications later. 
