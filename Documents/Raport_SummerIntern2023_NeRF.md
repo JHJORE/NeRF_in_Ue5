@@ -92,7 +92,8 @@ Was hard to even make the code from the repo work. The documentation was bad. Ha
 
 Learning, always be skeptical of new technology. If it's from a credible university or company it does not matter. It will be hard to replicate.
 
-### Luma - Expensive, don't think it will work as well with rooms as it does with objects. Don't know how it works with Unreal Engine.
+### Luma
+Expensive. We don't think it will work as well with rooms as it does with objects and we don't know how of if it works with Unreal Engine.
 
 ### PolyCam - No one had IOS so we couldn't test it.
 
