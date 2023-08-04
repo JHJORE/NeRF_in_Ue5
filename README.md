@@ -178,8 +178,6 @@ No one had IOS so we couldn't test it. Seems interesting to not have to use colm
 ## 🏁 Conclusion
 This exploration confirmed the feasibility of integrating NeRF into Unreal Engine 5, leading to a highly interactive, immersive experience. This successful demonstration serves as a testament to the potential of NeRF within an industrial setting for Equinor.
 
-Current NeRF models may not match the high visual fidelity associated with some alternative technologies, yet they offer distinct advantages that are hard to dismiss. Particularly noteworthy is the technology's speed and accessibility, in addition to its user-friendly nature. Such attributes make NeRF appealing for fast, efficient digital twin creation and exploration.
-
-Considering that NeRF is only three years old, its current pace of advancement suggests a promising future in the rapidly evolving industrial metaverse.
+Current NeRF models may not match the high visual fidelity associated with some alternative technologies, yet they offer distinct advantages that are hard to dismiss. Particularly noteworthy is the technology's speed and accessibility, in addition to its user-friendly nature. Such attributes make NeRF appealing for fast, efficient digital twin creation and exploration. Considering that NeRF is only three years old, its current pace of advancement suggests a promising future in the rapidly evolving industrial metaverse.
 
 Our work indicates that NeRF is a practical and powerful tool for developing immersive digital environments, opening up new possibilities for industrial applications.
