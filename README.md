@@ -147,8 +147,9 @@ Looked like an interesting NeRF model to explore. However, we couldn't get it to
 The documentation was bad so it was hard to even make the code from the repo work. Additionally, when we got it to run it took forever to train. The output did not look like the paper at all. Would be interesting to integrate if we could travel in any path and training was quicker.
 
 
-#### Multiplayer plugin (did not work with Volinga)
-- Worked decently, not very easy to use and to set up. We had some problems with persistence and with using Git. Recommend watching the video from unreal on how it is used. It does work well if you are using traditional unreal engine tools.
+#### Multi user editor - plugin (did not work with Volinga)
+- Worked decently, not very easy to use and to set up. We had some problems with persistence and with using Git. Recommend watching the [video](https://www.youtube.com/watch?v=MPIpOdNmNGE) from unreal on how it is used. It does work well if you are using traditional unreal engine tools.
+- https://www.youtube.com/watch?v=MPIpOdNmNGE
 - Git support is in Beta, works decently, but we have experienced some issues and some merge conflicts. Fixing merge conflicts doesn't work, we had to revert some changes.
 
 #### Oculus
