@@ -102,10 +102,10 @@ Volinga does not work with VR yet, but they have said that they will add this fu
 
 ## 🔍 Explored Technologies
 
-### Instant-NGP - [GitHub](https://github.com/bycloudai/instant-ngp-Windows)
+#### Instant-NGP - [GitHub](https://github.com/bycloudai/instant-ngp-Windows)
 It worked well, not too difficult to set up. A big upside with it is its speed, it is a lot faster than NeRFStudio. It also works with VR. We did not do anything more than exploring with it because we found no other uses, there was no way to incorporate it into Unreal Engine. 
 
-### NeRFStudio - [GitHub](https://github.com/equinor/eit-nerfstudio)
+#### NeRFStudio - [GitHub](https://github.com/equinor/eit-nerfstudio)
 Very easy to use and a lot of documentation. We tried both running NeRFStudio directly, and using the Docker image that Jonas made, and we preferred using the Docker image. We used it on windows with WSL using Distro and Ubuntu. 
 - Nerfacto
 	- The normal way of training NeRF models
@@ -113,27 +113,27 @@ Very easy to use and a lot of documentation. We tried both running NeRFStudio di
 	- The training method that gives you a .chkpt-file you can use with the Volinga exporter. 
 	- This required version 0.3.1. To use this version you have to change the remote image version in the .env-file to "dromni/nerfstudio:0.3.1" and choose “2: Run prebuildt official image dromni/nerfstudio:0.3.1”
 
-### MERF
+#### MERF
 Did not work
-### LocalRF
+#### LocalRF
 Was hard to even make the code from the repo work. The documentation was bad. Hard to even run. Additionally, when we got it to run it took forever to train. The output did not look like the paper at all. Would be interesting to integrate if we could travel in any path and training was quicker.
 
 Learning, always be skeptical of new technology. If it's from a credible university or company it does not matter. It will be hard to replicate.
 
 
 
-### Multiplayer plugin (did not work with Volinga)
+#### Multiplayer plugin (did not work with Volinga)
 - Worked decently, not very easy to use and to set up. We had some problems with persistence and with using Git. Recommend watching the video from unreal on how it is used. It does work well if you are using traditional unreal engine tools.
 - Git support is in Beta, works decently, but we have experienced some issues and some merge conflicts. Fixing merge conflicts doesn't work, we had to revert some changes.
 
-### Oculus
+#### Oculus
 Does not work in enterprise mode for VR and unreal engine. Struggled to connect to the computer wirelessly in enterprise mode. All the following problems were solved when it was set to consumer mode. We managed to connect the headset to our PCs using a cable. When we tried to connect it to our PCs wirelessly, we could not get it to work on the Equinor internet, but we made it work on networks at home. 
 
 
-### HTC Vive
+#### HTC Vive
 Difficult to set up, need to set up the sensors. You have to use cable. A good headset, but we would recommend Oculus
 
-### SteamVR
+#### SteamVR
 Works with Oculus, but not enterprise Oculus. We used it to get VR to work with InstantNGP
 
 
