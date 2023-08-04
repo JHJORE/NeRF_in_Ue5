@@ -36,7 +36,6 @@ The outcomes of this initiative were encouraging, indicating that NeRF holds sig
 #### Requirements
 
 <div id="explored-technologies"></div>
-
 ## Explored Technologies
 
 ### Instant-NGP - [GitHub](https://github.com/bycloudai/instant-ngp-Windows)
@@ -50,10 +49,10 @@ Was hard to even make the code from the repo work. The documentation was bad. Ha
 
 Learning, always be skeptical of new technology. If it's from a credible university or company it does not matter. It will be hard to replicate.
 
-## Problem with all NeRF models: 
+### Problem with all NeRF models: 
 have to get camera positions. Normally done using colmap, but this takes quite some time. Can use other applications or use Lidar data, but then you need special hardware. iPhones have Lidar capabilities and can use certain apps, android phones don’t have this.
 
-## Volinga - Completely new technology, plugin works, exporter works
+### Volinga - Completely new technology, plugin works, exporter works
 - Helpful, updated their plugin after we had a request for removing collision of the Volinga nerf actor
 - Active on Discord
 
@@ -61,7 +60,7 @@ Easy to export NeRF chkpt-file to nvol-file to use in Unreal. The site is connec
 
 Only works with NeRFStudio version 0.3.1. Otherwise the chkpt-file is not compatible with the Volinga exporter.
 
-## Volinga with Unreal
+### Volinga with Unreal
 A Volinga nerf actor which stores the nerf model. Can size it, change scale. This means you can get a lifelike size so when you walk around in first person you don't feel too small or too large.
 
 Had some problems with the plugin in earlier versions, the newest version is more stable.
@@ -74,26 +73,26 @@ There is probably an easier way to do it than the way we did it, but as we were 
 
 Volinga does not work with VR yet, but they have said that they will add this functionality later.
 
-## Luma - Expensive, don't think it will work as well with rooms as it does with objects. Don't know how it works with Unreal Engine.
+### Luma - Expensive, don't think it will work as well with rooms as it does with objects. Don't know how it works with Unreal Engine.
 
-## PolyCam - No one had IOS so we couldn't test it.
+### PolyCam - No one had IOS so we couldn't test it.
 
-## Unreal Engine
+### Unreal Engine
 
 ### Multiplayer plugin (did not work with Volinga)
 - Worked decently, not very easy to use and to set up. We had some problems with persistence and with using Git. Recommend watching the video from unreal on how it is used. It does work well if you are using traditional unreal engine tools.
 - Git support is in Beta, works decently, but we have experienced some issues and some merge conflicts. Fixing merge conflicts doesn't work, we had to revert some changes.
 
-## Oculus
+### Oculus
 Does not work in enterprise mode for VR and unreal engine. Struggled to connect to the computer wirelessly in enterprise mode. All the following problems were solved when it was set to consumer mode.
 
-## HTC Vive
+### HTC Vive
 Difficult to set up, need to set up the sensors.
 
-## SteamVR
+### SteamVR
 Works with Oculus, but not enterprise Oculus.
 
-## GoPro
+### GoPro
 Camera mode: cinematic, wide, ultrawider, and hyperwide.
 Hyperwide does not work, quality shit, Could potentially work for very large environments.
 Ultrawide
@@ -105,10 +104,10 @@ Normal best for normal nerf or small rooms.
 Used GoPro quickpro app: easy to use and export pictures.
 GoPro does not produce better nerfs than a phone camera, only the wide feature that gives it an advantage for larger rooms.
 
-## Google Pixel Camera
+### Google Pixel Camera
 OK camera, it can produce OK nerfs.
 
-## Samsung Camera
+### Samsung Camera
 Depending on what model, it produces mid to high models.
 
 <div id="other-relevant-technologies"></div>
