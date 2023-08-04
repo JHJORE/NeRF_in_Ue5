@@ -5,7 +5,8 @@ To run the project, you have to download the Volinga plugin from volinga.ai. Thi
 
 # An Exploration of the Implementation of NeRF with Unreal Engine 5
 
-#Video showing the project: https://youtu.be/MIEbp1fxDJo
+# Video showing the project: https://youtu.be/MIEbp1fxDJo
+
 [![Watch the video](https://img.youtube.com/vi/MIEbp1fxDJo/default.jpg)](https://youtu.be/MIEbp1fxDJo)
 
 ## Table of Content
