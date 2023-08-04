@@ -131,7 +131,7 @@ As of now, Volinga lacks compatibility with VR. However, the team has announced 
 #### Instant-NGP - [GitHub](https://github.com/bycloudai/instant-ngp-Windows)
 It worked well, not too difficult to set up. A big upside with it is its speed, it is a lot faster than NeRFStudio. It also works with VR. We did not do anything more than exploring with it because we found no other uses, there was no way to incorporate it into Unreal Engine. 
 
-#### NeRFStudio - [GitHub](https://github.com/equinor/eit-nerfstudio)
+#### NeRFStudio - [Github](https://github.com/equinor/eit-nerfstudio)
 Very easy to use and a lot of documentation. We tried both running NeRFStudio directly, and using the Docker image that Jonas made, and we preferred using the Docker image. We used it on windows with WSL using Distro and Ubuntu. 
 - Nerfacto
 	- The normal way of training NeRF models
