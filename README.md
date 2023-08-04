@@ -108,7 +108,7 @@ As of writing, Volinga is a new plugin still in beta. Volinga has a singular pur
 If you upload your chkpt file or video to their website, it is connected to Volingas cloud. Any sensitive information should not be uploaded! If you need to upload sensitive information, contact them and ask for their desktop, which offers local training.
 
 ### Volinga Desktop
-Volinga also offers an enterprise desktop solution. This desktop variant currently provides the same features as their website, albeit with minor modifications. The desktop version only accepts checkpoint files for export, not videos, and these checkpoint files must be trained using NeRFStudio version 0.3.1. To use this version you have to change the remote image version in the .env-file to "dromni/nerfstudio:0.3.1" and choose “2: Run prebuildt official image dromni/nerfstudio:0.3.1”
+Volinga also offers an enterprise desktop solution. This desktop variant currently provides the same features as their website, albeit with minor modifications. The desktop version only accepts checkpoint files for export, not videos, and these checkpoint files must be trained using NeRFStudio version 0.3.1. If you use the eit-nerfstudio repo made internally in Equinor, you have to change the remote image version in the .env-file to "dromni/nerfstudio:0.3.1" and choose “2: Run prebuildt official image dromni/nerfstudio:0.3.1”
 
 
 
