@@ -156,7 +156,7 @@ Does not work in enterprise mode for VR and unreal engine. Struggled to connect 
 
 
 #### HTC Vive
-Difficult to set up because the requirement for setting up the sensors can be difficult to achieve in some types of roomes. You also have to use cable. A good headset, but we would recommend Oculus
+It was difficult to set up because the requirement for setting up the sensors can be difficult to achieve in some types of roomes. You also have to use cable. A good headset, but we would recommend Oculus
 
 #### SteamVR
 It works with Oculus, but we couldn't get it to work with enterprise Oculus. We used it to get VR to work with InstantNGP
