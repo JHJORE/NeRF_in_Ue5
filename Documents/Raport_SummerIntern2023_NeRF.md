@@ -34,23 +34,15 @@ The outcomes of this initiative were encouraging, indicating that NeRF holds sig
 <div id="nerf-in-unreal-engine"></div>
 
 ### NeRF in Unreal Engine
-#### Volinga
 #### Requirements
+#### Volinga
 
-<div id="explored-technologies"></div>
 
-## Explored Technologies
+### Google Pixel Camera
+OK camera, it can produce OK nerfs.
 
-### Instant-NGP - [GitHub](https://github.com/bycloudai/instant-ngp-Windows)
-### NeRFStudio - [GitHub](https://github.com/equinor/eit-nerfstudio)
-- Nerfacto
-- Volinga
-
-### MERF - did not work
-### LocalRF
-Was hard to even make the code from the repo work. The documentation was bad. Hard to even run. Additionally, when we got it to run it took forever to train. The output did not look like the paper at all. Would be interesting to integrate if we could travel in any path and training was quicker.
-
-Learning, always be skeptical of new technology. If it's from a credible university or company it does not matter. It will be hard to replicate.
+### Samsung Camera
+Depending on what model, it produces mid to high models.
 
 ### Problem with all NeRF models: 
 have to get camera positions. Normally done using colmap, but this takes quite some time. Can use other applications or use Lidar data, but then you need special hardware. iPhones have Lidar capabilities and can use certain apps, android phones don’t have this.
@@ -76,11 +68,26 @@ There is probably an easier way to do it than the way we did it, but as we were 
 
 Volinga does not work with VR yet, but they have said that they will add this functionality later.
 
+
+<div id="explored-technologies"></div>
+
+## Explored Technologies
+
+### Instant-NGP - [GitHub](https://github.com/bycloudai/instant-ngp-Windows)
+### NeRFStudio - [GitHub](https://github.com/equinor/eit-nerfstudio)
+- Nerfacto
+- Volinga
+
+### MERF - did not work
+### LocalRF
+Was hard to even make the code from the repo work. The documentation was bad. Hard to even run. Additionally, when we got it to run it took forever to train. The output did not look like the paper at all. Would be interesting to integrate if we could travel in any path and training was quicker.
+
+Learning, always be skeptical of new technology. If it's from a credible university or company it does not matter. It will be hard to replicate.
+
 ### Luma - Expensive, don't think it will work as well with rooms as it does with objects. Don't know how it works with Unreal Engine.
 
 ### PolyCam - No one had IOS so we couldn't test it.
 
-### Unreal Engine
 
 ### Multiplayer plugin (did not work with Volinga)
 - Worked decently, not very easy to use and to set up. We had some problems with persistence and with using Git. Recommend watching the video from unreal on how it is used. It does work well if you are using traditional unreal engine tools.
@@ -107,11 +114,6 @@ Normal best for normal nerf or small rooms.
 Used GoPro quickpro app: easy to use and export pictures.
 GoPro does not produce better nerfs than a phone camera, only the wide feature that gives it an advantage for larger rooms.
 
-### Google Pixel Camera
-OK camera, it can produce OK nerfs.
-
-### Samsung Camera
-Depending on what model, it produces mid to high models.
 
 <div id="other-relevant-technologies"></div>
 
