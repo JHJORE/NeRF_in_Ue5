@@ -55,7 +55,7 @@ On the other hand, capturing an environment requires a different strategy. The s
 
 #### IPhone
 #### Google Pixel Camera
-OK camera, it can produce OK nerfs.
+OK camera, it can produce OK nerfs. When you take pictures instead of videoes, you get issues because of the image processing Google uses for the photos
 
 #### Samsung Camera
 Depending on what model, it produces mid to high models.
